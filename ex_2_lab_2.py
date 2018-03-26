@@ -45,3 +45,4 @@ txt = open(first,'w')
 for tasks in task:
     txt.write(tasks)
     txt.write("\n")
+txt.close()
